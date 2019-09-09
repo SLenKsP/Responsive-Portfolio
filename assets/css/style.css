@@ -198,3 +198,133 @@ button {
 label:nth-child(1) {
   margin-top: 10px;
 }
+
+/* **************************** Media queries ************************* */
+
+/* 980px */
+@media only screen and (max-width: 980px) {
+  body {
+    width: 100%;
+    max-width: 980px;
+  }
+  .menu {
+    width: 100%;
+    max-width: 980px;
+  }
+
+  .info {
+    margin: 0 40px;
+    width: 60%;
+  }
+  .myname {
+    margin-left: 40px;
+  }
+  .options {
+    right: 40px;
+  }
+  .main {
+    padding-top: 40px;
+  }
+  textarea {
+    /* border-style: inset; */
+    border: 1px solid gray;
+    margin-top: 5px;
+  
+  }
+  .images{
+    width:50%;
+    max-width: 243px;
+    max-height: 180px;
+
+  }
+  .images:nth-of-type(even){
+    margin-right: 0;
+    left: 40px;
+  }
+ 
+
+}
+
+/* 768px */
+@media only screen and (max-width: 768px) {
+  body {
+    width: 100%;
+    /* max-width: px; */
+  }
+  .main {
+    width: 100%;
+    /* max-width: 768px; */
+    padding-top: 20px;
+  }
+  .menu {
+    width: 100%;
+    max-width: 768px;
+  }
+  .info {
+    width: 100%;
+    margin: 0 20px;
+    max-width: 728px;
+  }
+  .myname {
+    margin-left: 20px;
+  }
+  .options {
+    right: 20px;
+  }
+  .content-section {
+    /* padding: 0px; */
+    width: 100%;
+    max-width: 768px;
+  }
+   .images{
+    width:50%;
+    max-width: 313px;
+    max-height: 300px;
+  }
+  .images:nth-of-type(even){
+    margin-right: 0;
+    left: 40px;
+  }
+}
+
+/* 640px */
+@media only screen and (max-width: 640px) {
+  .options {
+    position: static;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    max-width: 640px;
+    padding: 0;
+    font-size: 16px;
+   /* margin: 10px 0; */
+  }
+
+  .myname {
+    position: static;
+    width: 100%;
+    max-width: 640px;
+    margin: 0;
+    padding: 10px;
+  }
+  .info {
+    width: 100%;
+    margin: 0 20px;
+    max-width: 595px;
+  }
+  .menu {
+    width: 100%;
+    max-width: 640px;
+  }
+    .images{
+    width:100%;
+    max-width: 543px;
+    height: 500px;
+   /* margin-bottom: 20px; */
+  
+  }
+   .images:nth-of-type(even){
+    margin-right: 0;
+    left: 0;;
+  }
+}
