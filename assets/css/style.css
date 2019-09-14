@@ -89,7 +89,7 @@ a {
   overflow: auto;
 }
 footer {
-/*   position: absolute; */
+  /*   position: absolute; */
   text-align: center;
   padding-top: 30px;
   padding-bottom: 5px;
@@ -316,5 +316,9 @@ label:nth-child(1) {
   .images:nth-of-type(even) {
     margin-right: 0;
     left: 0;
+  }
+  .profile-image {
+    float: none;
+    width: 100%;
   }
 }
